@@ -44,6 +44,5 @@ function onFileLookUp(info, file){
 
 
 module.exports = function(feather, opts){
-	require('feather2-hook-components')(feather, opts);
 	feather.on('lookup:file', onFileLookUp);
 };

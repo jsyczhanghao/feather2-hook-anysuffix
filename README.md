@@ -11,7 +11,7 @@ npm install feather2-hook-anysuffix --save-dev
 
 ```js
 //conf.js
-//修改原本查找的hook为feather2-hook-anysuffix
+//新增一个查找任意后缀的hook
 feather.config.set('modules.hook', 'anysuffix');
 //支持查找es6，vue
 feather.config.set('project.fileType.js', ['es6', 'vue']);
